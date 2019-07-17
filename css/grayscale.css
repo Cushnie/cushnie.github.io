@@ -12,8 +12,8 @@
 #mainNav .navbar-toggler {
   font-size: 80%;
   padding: 0.75rem;
-  color: #64a19d;
-  border: 1px solid #64a19d;
+  color: #ece24d;
+  border: 1px solid #ece24d;
 }
 
 #mainNav .navbar-toggler:focus {
@@ -83,17 +83,17 @@
   }
 
   #mainNav.navbar-shrink .nav-link:hover {
-    color: #64a19d;
+    color: #ece24d;
   }
 
   #mainNav.navbar-shrink .nav-link:active {
-    color: #467370;
+    color: #e9ec2f;
   }
 
   #mainNav.navbar-shrink .nav-link.active {
-    color: #64a19d;
+    color: #ece24d;
     outline: none;
-    border-bottom: 0.25rem solid #64a19d;
+    border-bottom: 0.25rem solid #ece24d;
   }
 }
 
@@ -163,26 +163,30 @@
 }
 
 .btn-primary {
-  background-color: #64a19d;
+  background-color: #ece24d;
 }
 
 .btn-primary:hover {
-  background-color: #4f837f;
+  background-color: #ece24d;
 }
 
 .btn-primary:focus {
-  background-color: #4f837f;
+  background-color: #e9ec2f;
   color: white;
 }
 
 .btn-primary:active {
-  background-color: #467370 !important;
+  background-color: #e9ec2f !important;
 }
 
 .about-section {
-  padding-top: 10rem;
+  padding-top: 5rem;
   background: -webkit-gradient(linear, left top, left bottom, from(#161616), color-stop(75%, rgba(22, 22, 22, 0.9)), to(rgba(22, 22, 22, 0.8)));
   background: linear-gradient(to bottom, #161616 0%, rgba(22, 22, 22, 0.9) 75%, rgba(22, 22, 22, 0.8) 100%);
+}
+
+.about-section .featured-text {
+  padding: 2rem;
 }
 
 .about-section p {
@@ -190,7 +194,7 @@
 }
 
 .projects-section {
-  padding: 10rem 0;
+  padding: 5rem 0;
 }
 
 .projects-section .featured-text {
@@ -200,7 +204,7 @@
 @media (min-width: 992px) {
   .projects-section .featured-text {
     padding: 0 0 0 2rem;
-    border-left: 0.5rem solid #64a19d;
+    border-left: 0.5rem solid #ece24d;
   }
 }
 
@@ -215,33 +219,13 @@
   }
 
   .projects-section .project-text hr {
-    border-color: #64a19d;
+    border-color: #ece24d;
     border-width: .25rem;
     width: 30%;
   }
 }
 
-.signup-section {
-  padding: 10rem 0;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.1)), color-stop(75%, rgba(22, 22, 22, 0.5)), to(#161616)), url("../img/bg-signup.jpg");
-  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../img/bg-signup.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-size: cover;
-}
 
-.signup-section .form-inline input {
-  -webkit-box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
-  box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
-  padding: 1.25rem 2rem;
-  height: auto;
-  font-family: 'Varela Round';
-  font-size: 80%;
-  text-transform: uppercase;
-  letter-spacing: 0.15rem;
-  border: 0;
-}
 
 .contact-section {
   padding: 5rem 0 0;
@@ -249,7 +233,7 @@
 
 .contact-section .card {
   border: 0;
-  border-bottom: 0.25rem solid #64a19d;
+  border-bottom: 0.25rem solid #ece24d;
 }
 
 .contact-section .card h4 {
@@ -260,7 +244,7 @@
 }
 
 .contact-section .card hr {
-  border-color: #64a19d;
+  border-color: #ece24d;
   border-width: 0.25rem;
   width: 3rem;
 }
@@ -293,13 +277,13 @@ body {
 }
 
 a {
-  color: #64a19d;
+  color: #ece24d;
 }
 
 a:focus,
 a:hover {
   text-decoration: none;
-  color: #3c6360;
+  color: #ece24d;
 }
 
 .bg-black {
@@ -307,11 +291,11 @@ a:hover {
 }
 
 .bg-primary {
-  background-color: #64a19d !important;
+  background-color: #ece24d !important;
 }
 
 .text-primary {
-  color: #64a19d !important;
+  color: #ece24d !important;
 }
 
 footer {
