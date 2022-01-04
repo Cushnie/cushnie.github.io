@@ -12,8 +12,8 @@
 #mainNav .navbar-toggler {
   font-size: 80%;
   padding: 0.75rem;
-  color: #ece24d;
-  border: 1px solid #ece24d;
+  color: #01e3f3;
+  border: 1px solid #01e3f3;
 }
 
 #mainNav .navbar-toggler:focus {
@@ -83,17 +83,17 @@
   }
 
   #mainNav.navbar-shrink .nav-link:hover {
-    color: #ece24d;
+    color: #01e3f3;
   }
 
   #mainNav.navbar-shrink .nav-link:active {
-    color: #e9ec2f;
+    color: #01e3f3;
   }
 
   #mainNav.navbar-shrink .nav-link.active {
-    color: #ece24d;
+    color: #01e3f3;
     outline: none;
-    border-bottom: 0.25rem solid #ece24d;
+    border-bottom: 0.25rem solid #01e3f3;
   }
 }
 
@@ -116,7 +116,7 @@
   font-size: 2.5rem;
   line-height: 2.5rem;
   letter-spacing: 0.8rem;
-  background: -webkit-linear-gradient(rgba(233, 236, 47), rgba(0, 0, 0));
+  background: -webkit-linear-gradient(rgba(1, 227, 243, 1), rgba(0, 0, 0));
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
@@ -163,20 +163,20 @@
 }
 
 .btn-primary {
-  background-color: #ece24d;
+  background-color: #01e3f3;
 }
 
 .btn-primary:hover {
-  background-color: #ece24d;
+  background-color: #01e3f3;
 }
 
 .btn-primary:focus {
-  background-color: #e9ec2f;
+  background-color: #01e3f3;
   color: white;
 }
 
 .btn-primary:active {
-  background-color: #e9ec2f !important;
+  background-color: #01e3f3 !important;
 }
 
 .about-section {
@@ -204,7 +204,7 @@
 @media (min-width: 992px) {
   .projects-section .featured-text {
     padding: 0 0 0 2rem;
-    border-left: 0.5rem solid #ece24d;
+    border-left: 0.5rem solid #01e3f3;
   }
 }
 
@@ -219,7 +219,7 @@
   }
 
   .projects-section .project-text hr {
-    border-color: #ece24d;
+    border-color: #01e3f3;
     border-width: .25rem;
     width: 30%;
   }
@@ -233,7 +233,7 @@
 
 .contact-section .card {
   border: 0;
-  border-bottom: 0.25rem solid #ece24d;
+  border-bottom: 0.25rem solid #01e3f3;
 }
 
 .contact-section .card h4 {
@@ -244,7 +244,7 @@
 }
 
 .contact-section .card hr {
-  border-color: #ece24d;
+  border-color: #161616;
   border-width: 0.25rem;
   width: 3rem;
 }
@@ -277,13 +277,13 @@ body {
 }
 
 a {
-  color: #ece24d;
+  color: #01e3f3;
 }
 
 a:focus,
 a:hover {
   text-decoration: none;
-  color: #ece24d;
+  color: #01e3f3;
 }
 
 .bg-black {
@@ -291,11 +291,11 @@ a:hover {
 }
 
 .bg-primary {
-  background-color: #ece24d !important;
+  background-color: #01e3f3 !important;
 }
 
 .text-primary {
-  color: #ece24d !important;
+  color: #01e3f3 !important;
 }
 
 footer {
